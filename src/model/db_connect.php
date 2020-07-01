@@ -4,7 +4,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "sistemaibridgeLTE3";
+$dbname = "iDrink";
 
 $connect = mysqli_connect($servername, $username, $password, $dbname);
 mysqli_set_charset($connect, "utf8");
