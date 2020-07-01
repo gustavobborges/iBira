@@ -13,7 +13,7 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-input, button, textarea {
+input, textarea {
     font: 400 18px Roboto, sans-serif;
 }
 
@@ -31,19 +31,12 @@ form input {
 }
 
 .button {
-    width: 100%;
-    height: 60px;
-    background: #e02041;
+    max-width: 140px;
     border: 0;
-    border-radius: 8px;
-    color: #FFF;
-    font-weight: 700;
-    margin-top: 16px;
+    border-radius: 50px;
     display: inline-block;
     text-align: center;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 60px;
     transition: filter 0.2s;
 }
 
@@ -73,8 +66,9 @@ form input {
 }
 
 .cardsup {
+    
 padding: 0px;
-margin-left: -25px;
+margin: 0px;
 margin-top: 10px;
 margin-bottom: 10px;
 }
@@ -92,10 +86,17 @@ font-size: 0.8rem;
 }
 
 .imgtop {
-    padding: 0px;
-    margin: 0px;
-    margin-top: -10px;
-    min-height: 55px;
-    margin-bottom: 5px;
+margin-top: -10px;
+margin-bottom: 5px;
+max-height: 50px;
+min-height: 55px;
+width: auto;
+margin-left: -7px;
+border-radius: 100px;
+}
 
+.carrosseis {
+margin-top: 12px;
+align-items: center;
+text-align: center;
 }

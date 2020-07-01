@@ -32,57 +32,13 @@
         <a class="navbar-brand" href="#">
             <div class="row">
                 <img src="assets/cerveja.svg" width="30" height="30" class="d-inline-block align-top logonav" alt="">
-                <div class="titulo">&nbsp; iDrink</div>
+                <div class="titulo">&nbsp; iDRINK</div>
             </div>
         </a>
     </nav>
 
-
-    <!--Cards Superiores -->
-
-    <div class="container-fluid">
-        <div class="d-flex flex-row flex-nowrap cardsup">
-            <div class="col-4">
-                <div class="card card-block cardup">
-
-                    <div class="card-body cardtitulo">
-                        <img class="card-img-top imgtop" src="fotos/fcerveja" alt="Card image cap">
-                        <div class="card-title">Cerveja</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card card-block cardup">
-                    <div class="card-body cardtitulo">
-                        <img class="card-img-top imgtop" src="fotos/fwhyski.jpg" alt="Card image cap">
-                        <div class="card-title">Whisky</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card card-block cardup">
-                    <div class="card-body cardtitulo">
-                        <img class="card-img-top imgtop" src="fotos/fnarguile.jpg" alt="Card image cap">
-                        <div class="card-title">Tabacaria</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-4">
-                <div class="card card-block cardup">
-                    <div class="card-body cardtitulo">
-                        <img class="card-img-top imgtop" src="fotos/fvinho.jpg" alt="Card image cap">
-                        <div class="card-title">Vinho</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-
     <!-- Carrosel -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-
         <div class="carousel-inner carrossel">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="fotos/cerveja.jpg" alt="Primeiro Slide">
@@ -117,6 +73,72 @@
             <span class="sr-only">Próximo</span>
         </a>
     </div>
+
+    <!--Cards Superiores -->
+    <div class="carrosseis">
+        <div class="container-fluid cardcima">
+            <div class="d-flex flex-row flex-nowrap cardsup">
+                <div class="col-4">
+                <button class="button">
+                    <div class="card card-block cardup">
+                        
+                        <div class="card-body cardtitulo">
+                            <img class="card-img-top imgtop" src="fotos/fcerveja" width="" alt="Card image cap">
+                            <div class="card-title">Cerveja</div>
+                        </div>
+                    </div></button>
+                </div>
+                <div class="col-4">
+                    <div class="card card-block cardup">
+                        <div class="card-body cardtitulo">
+                            <img class="card-img-top imgtop" src="fotos/kit-absolut.png" style="margin-left: 2px"
+                                alt="Card image cap">
+                            <div class="card-title">Combo</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card card-block cardup">
+                        <div class="card-body cardtitulo">
+                            <img class="card-img-top imgtop" src="fotos/fnarguile.jpg" alt="Card image cap">
+                            <div class="card-title">Tabacaria</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex flex-row flex-nowrap cardsup">
+                <div class="col-4">
+                    <div class="card card-block cardup">
+                        <div class="card-body cardtitulo">
+                            <img class="card-img-top imgtop" src="fotos/fwhyski.jpg" alt="Card image cap">
+                            <div class="card-title">Whisky</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card card-block cardup">
+                        <div class="card-body cardtitulo">
+                            <img class="card-img-top imgtop" src="fotos/fvinho.jpg" style="margin-left: -20px"
+                                alt="Card image cap">
+                            <div class="card-title">Vinho</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card card-block cardup">
+                        <div class="card-body cardtitulo">
+                            <img class="card-img-top imgtop" src="fotos/smirnoff.jpg" alt="Card image cap">
+                            <div class="card-title">Vodka</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
 
 </body>
 
