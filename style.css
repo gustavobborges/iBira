@@ -71,3 +71,31 @@ form input {
     top: 0;
     
 }
+
+.cardsup {
+padding: 0px;
+margin-left: -25px;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.cardup {
+max-height: 100px;
+text-align: center;
+min-width: 100px;
+}
+
+.card-title {
+margin-top: 2px;
+font-size: 0.8rem;
+
+}
+
+.imgtop {
+    padding: 0px;
+    margin: 0px;
+    margin-top: -10px;
+    min-height: 55px;
+    margin-bottom: 5px;
+
+}

@@ -20,6 +20,7 @@
     </script>
     <link type="text/css" rel="stylesheet" href="style.css">
 
+
 </head>
 
 <body>
@@ -36,31 +37,75 @@
         </a>
     </nav>
 
+
+    <!--Cards Superiores -->
+
+    <div class="container-fluid">
+        <div class="d-flex flex-row flex-nowrap cardsup">
+            <div class="col-4">
+                <div class="card card-block cardup">
+
+                    <div class="card-body cardtitulo">
+                        <img class="card-img-top imgtop" src="fotos/fcerveja" alt="Card image cap">
+                        <div class="card-title">Cerveja</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card card-block cardup">
+                    <div class="card-body cardtitulo">
+                        <img class="card-img-top imgtop" src="fotos/fwhyski.jpg" alt="Card image cap">
+                        <div class="card-title">Whisky</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card card-block cardup">
+                    <div class="card-body cardtitulo">
+                        <img class="card-img-top imgtop" src="fotos/fnarguile.jpg" alt="Card image cap">
+                        <div class="card-title">Tabacaria</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card card-block cardup">
+                    <div class="card-body cardtitulo">
+                        <img class="card-img-top imgtop" src="fotos/fvinho.jpg" alt="Card image cap">
+                        <div class="card-title">Vinho</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Carrosel -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
         <div class="carousel-inner carrossel">
             <div class="carousel-item active">
                 <img class="d-block w-100" src="fotos/cerveja.jpg" alt="Primeiro Slide">
                 <div class="carousel-caption legendas">
-                <h5>Cervejas</h5>
-                <p>As melhores e mais geladas Geladas</p>
-             </div>
+                    <h5>Cervejas</h5>
+                    <p>As melhores e mais geladas Geladas</p>
+                </div>
             </div>
 
             <div class="carousel-item">
                 <img class="d-block w-100" src="fotos/combo-vodka.jpg" alt="Segundo Slide">
                 <div class="carousel-caption legendas">
-                <h5>Kits</h5>
-                <p>Os melhores combos para salvar o rolê</p>
-             </div>
+                    <h5>Kits</h5>
+                    <p>Os melhores combos para salvar o rolê</p>
+                </div>
             </div>
             <div class="carousel-item">
                 <img class="d-block w-100" src="fotos/narguile.jpg" alt="Terceiro Slide">
                 <div class="carousel-caption legendas">
-                <h5>Tabacaria</h5>
-                <p>Os melhores artigos de tabacaria para você
-                </p>
-             </div>
+                    <h5>Tabacaria</h5>
+                    <p>Os melhores artigos de tabacaria para você
+                    </p>
+                </div>
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
